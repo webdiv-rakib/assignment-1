@@ -322,17 +322,18 @@ nav {
     justify-content: space-between;
     background-color: rgba(13, 19, 33, 0.03);
     border-radius: 16px;
-    
+
 }
-.footer-description{
+
+.footer-description {
     margin-left: 150px;
 }
 
-.social-link{
+.social-link {
     margin-right: 150px;
 }
 
-.social-image-2{
+.social-image-2 {
     margin-left: 24px;
     margin-right: 24px;
 }

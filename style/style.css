@@ -253,7 +253,7 @@ nav {
 .support-section {
     width: 1140px;
     height: 313px;
-    border: 2px solid red;
+    border: 2px solid; 
     border-radius: 16px;
     margin: 0 auto;
     margin-top: 110px;
@@ -273,10 +273,34 @@ nav {
 .support-title {
     font-size: 32px;
     font-weight: 700;
-    color: white;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .support-description {
     font-size: 16px;
     font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.reach-out {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.support-seggestion {
+    width: 548px;
+    height: 5px;
+    padding: 19px 20px 19px 20px;
+}
+
+.submit-button {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
 }

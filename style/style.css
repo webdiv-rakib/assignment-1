@@ -186,6 +186,7 @@ nav {
     height: 460px;
     /* border: 2px solid red; */
     margin: 0 auto;
+    margin-bottom: 140px;
 }
 
 .skills-title {
@@ -217,7 +218,7 @@ nav {
     /* border: 2px solid green; */
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    margin-bottom: 110px;
+    /* margin-bottom: 150px; */
 }
 
 .image-positon {
@@ -253,10 +254,9 @@ nav {
 .support-section {
     width: 1140px;
     height: 313px;
-    border: 2px solid; 
+    /* border: 2px solid;  */
     border-radius: 16px;
     margin: 0 auto;
-    margin-top: 110px;
     background-image: url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,6 +271,7 @@ nav {
 }
 
 .support-title {
+    margin-top: 64px;
     font-size: 32px;
     font-weight: 700;
     color: #FFFFFF;
@@ -296,11 +297,15 @@ nav {
     width: 548px;
     height: 5px;
     padding: 19px 20px 19px 20px;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .submit-button {
     width: 120px;
-    height: 50px;
+    height: 45px;
     font-size: 20px;
     font-weight: 600;
+    border-radius: 8px;
+    border-style: none;
 }

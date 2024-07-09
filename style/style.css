@@ -25,11 +25,64 @@ button {
     padding: 17px 24px 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 nav {
+    width: 1440px;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 35px;
+}
+
+/* Banner-section-style */
+.banner-section {
+    width: 1440px;
+    height: 652px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    border-style: dashed;
+    text-align: center;
+    background-image: url("../assets/Hero-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container {
+    width: 998px;
+    height: 582px;
+    /* border: 1px solid red; */
+}
+
+.web-icon {
+    /* margin-top: 26px; */
+    margin-bottom: 32px;
+}
+
+.banner-title {
+    width: 998px;
+    height: 136px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 68px;
+    font-weight: 800;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.banner-description {
+    margin-bottom: 15px;
+    /* border: 1px solid red; */
+    margin-bottom: 32px;
+}
+
+.btn-1 {
+    color: white;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background-color: #0D1321;
 }

@@ -172,7 +172,78 @@ nav {
     height: 614px;
     border: 2px solid #0D132133;
     border-radius: 16PX;
+    margin-bottom: 151px;
 }
-.youtube-video{
+
+.youtube-video {
     padding: 32px;
+}
+
+/* Skills section style */
+
+.skills-section {
+    width: 1140px;
+    height: 460px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.skills-title {
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.skill-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.skill-main-card {
+    display: flex;
+    padding: 40px;
+    gap: 24px;
+
+}
+
+.skill-card {
+    width: 364px;
+    height: 299px;
+    /* border: 2px solid green; */
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-bottom: 110px;
+}
+
+.image-positon {
+    width: 56px;
+    height: 56px;
+}
+
+.image-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.image-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.image-positon{
+    margin-bottom: 24px;
+}
+
+.skill-position{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }

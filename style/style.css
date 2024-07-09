@@ -309,3 +309,25 @@ nav {
     border-radius: 8px;
     border-style: none;
 }
+
+/* Footer section style */
+.footer-position {
+    width: 1440px;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    
+}
+.footer-description{
+    margin-left: 150px;
+}
+
+.social-link{
+    margin-right: 150px;
+}

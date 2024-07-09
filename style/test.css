@@ -1,0 +1,50 @@
+#web-section {
+    width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+
+}
+
+.web-section-1 {
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid green;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: yellow;
+}
+
+.web-section-2 {
+    width: 946px;
+    height: 1235px;
+    border: 2px solid yellow;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: yellow;
+}
+
+.web-dev {
+    text-align: center;
+}
+
+.web-card {
+    width: 946px;
+    height: 336px;
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.web-description {
+    margin-left: 48px;
+    margin-top: 48px;
+
+}
+.web-parent{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+
+}

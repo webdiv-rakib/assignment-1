@@ -44,12 +44,15 @@ nav {
     height: 652px;
     border-top: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;
+    border-left: 0;
+    border-right: 0;
     border-style: dashed;
     text-align: center;
     background-image: url("../assets/Hero-bg.png");
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .banner-container {
@@ -85,57 +88,84 @@ nav {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background-color: #0D1321;
+
 }
 
 /* Web development section style */
-.web-section {
-    border: 1px solid red;
-    margin-bottom: 88px;
+
+#web-section {
+    width: 1440px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
 
 }
 
-.web-container {
+.web-dev {
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.web-section-1 {
     width: 1140px;
     height: 1395px;
-    border: 2px solid red;
-    /* background-color: #0D132105; */
-    margin: 0 auto;
-    margin-top: 74px;
-    margin-bottom: 88px;
-    /* padding: 80px 97px 80px 97px; */
-    /* background-color: #0D1321; */
-
-}
-
-.web-heading {
-    width: 946px;
-    height: 1235px;
-    border: 2px solid red;
+    border: 2px solid rgb(250, 250, 251);
     margin: 0 auto;
     margin-top: 80px;
+    background-color: rgb(250, 250, 251);
+    border-radius: 16px;
+    margin-bottom: 166px;
 }
 
-.web-heading-1 {
+.web-section-2 {
+    width: 946px;
+    height: 1235px;
+    border: 2px solid rgb(250, 250, 251);
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: rgb(250, 250, 251);
+
+}
+
+.web-dev {
     text-align: center;
 }
 
-.why-webdevelopment {
-    font-size: 32px;
-    font-weight: 800;
+.web-dev-title {
     margin-bottom: 24px;
 }
 
-.why-webdevelopment-description {
-    font-size: 16px;
-    font-weight: 400;
+.web-dev-description {
     margin-bottom: 48px;
 }
 
-.section-1 {
+.web-card {
     width: 946px;
     height: 336px;
-    border: 2px solid green;
     display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 16px;
+}
+
+.web-description {
+    margin-left: 48px;
+    margin-top: 48px;
+}
+
+.web-parent {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+
+}
+
+.learn-more-button {
+    width: 149px;
+    height: 48px;
 }
 
 /* Inspiration section style */

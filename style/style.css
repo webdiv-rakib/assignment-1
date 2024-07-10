@@ -81,7 +81,7 @@ nav {
     margin-bottom: 15px;
     /* border: 1px solid red; */
     margin-bottom: 32px;
-    color: rgb(116,120,129);
+    color: rgb(116, 120, 129);
 }
 
 .btn-1 {
@@ -141,7 +141,7 @@ nav {
 
 .web-dev-description {
     margin-bottom: 48px;
-    color: rgb(116,120,129);
+    color: rgb(116, 120, 129);
 }
 
 .web-card {
@@ -189,7 +189,7 @@ nav {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
-    color: rgb(116,120,129);
+    color: rgb(116, 120, 129);
 }
 
 /* Inspiration section style */
@@ -215,6 +215,7 @@ nav {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 80px;
+    color: rgb(116, 120, 129);
 }
 
 .inspiration-heading {
@@ -257,6 +258,7 @@ nav {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 48px;
+    color: rgb(116, 120, 129);
 }
 
 .skill-main-card {
@@ -290,10 +292,17 @@ nav {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+    color: rgb(116, 120, 129);
 }
 
 .image-positon {
     margin-bottom: 24px;
+}
+
+.image-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .skill-position {
@@ -312,6 +321,7 @@ nav {
     border-radius: 16px;
     margin: 0 auto;
     background-image: url("../assets/handshake.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -381,6 +391,8 @@ nav {
 
 .footer-description {
     margin-left: 150px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .social-link {
@@ -390,4 +402,9 @@ nav {
 .social-image-2 {
     margin-left: 24px;
     margin-right: 24px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    font-weight: 400;
 }

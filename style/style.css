@@ -81,9 +81,12 @@ nav {
     margin-bottom: 15px;
     /* border: 1px solid red; */
     margin-bottom: 32px;
+    color: rgb(116,120,129);
 }
 
 .btn-1 {
+    font-size: 20px;
+    font-weight: 600;
     color: white;
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
@@ -133,10 +136,12 @@ nav {
 
 .web-dev-title {
     margin-bottom: 24px;
+    color: rgb(13, 19, 33);
 }
 
 .web-dev-description {
     margin-bottom: 48px;
+    color: rgb(116,120,129);
 }
 
 .web-card {
@@ -166,6 +171,25 @@ nav {
 .learn-more-button {
     width: 149px;
     height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #565a64;
+    background-color: white;
+    border: 1px solid #565a64;
+}
+
+.web-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 16px;
+}
+
+.web-card-title-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: rgb(116,120,129);
 }
 
 /* Inspiration section style */

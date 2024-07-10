@@ -28,6 +28,11 @@ h3 {
     /* opacity: 0.8; */
 }
 
+.download-resume:hover {
+    background-color: #565a64;
+    cursor: pointer;
+}
+
 nav {
     width: 1440px;
     width: 90%;
@@ -92,6 +97,10 @@ nav {
     border-radius: 8px;
     background-color: #0D1321;
 
+}
+
+.btn-1:hover {
+    cursor: pointer;
 }
 
 /* Web development section style */
@@ -320,8 +329,8 @@ nav {
     /* border: 2px solid;  */
     border-radius: 16px;
     margin: 0 auto;
-    background-image: url("../assets/handshake.jpg");
-    background-blend-mode: darken;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
